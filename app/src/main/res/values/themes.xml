@@ -10,7 +10,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnPrimary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
         <!-- Customize your theme here. -->
     </style>
@@ -20,8 +20,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.MyDeliveryApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.MyDeliveryApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="cardElevation">8dp</item>
+        <item name="tabBackground">@drawable/tabs_selector</item>
+        <item name="tabIndicator">@null</item>
+        <item name="android:background">@color/white</item>
+        <item name="tabTextColor">@color/blue_gray_light</item>
+        <item name="tabSelectedTextColor">@color/orange</item>
+        <item name="tabMinWidth">120dp</item>
+    </style>
 
 </resources>

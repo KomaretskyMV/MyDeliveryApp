@@ -1,8 +1,6 @@
 package com.kmv.mydeliveryapp.data
 
-import com.kmv.mydeliveryapp.entity.RecipesList
 import com.kmv.mydeliveryapp.entity.data_classes.Hit
-import com.kmv.mydeliveryapp.entity.data_classes.Recipe
 import com.kmv.mydeliveryapp.entity.data_classes.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

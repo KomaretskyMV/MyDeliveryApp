@@ -3,10 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/bottom_navigation_seloctor.xml" value="0.1" />
         <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/ic_baseline_person_24_pink.xml" value="0.1" />
-        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/shape_gradient.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tab_color_selector.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tab_selected.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tab_selested.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tab_unselected.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tab_unselested.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/drawable/tabs_selector.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/activity_main.xml" value="0.17" />
         <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/banner_item.xml" value="0.1762917933130699" />
-        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/fragment_menu.xml" value="0.16945288753799392" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/cities_spinner_dropdown_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/cities_spinner_item.xml" value="0.1" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/fragment_cart.xml" value="0.1762917933130699" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/fragment_menu.xml" value="0.18" />
+        <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/fragment_profile.xml" value="0.1762917933130699" />
         <entry key="..\:/GitHub/Delivery App/app/src/main/res/layout/menu_item.xml" value="0.2" />
         <entry key="..\:/GitHub/Delivery App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>

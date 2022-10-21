@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.kmv.mydeliveryapp.databinding.MenuItemBinding
 import com.kmv.mydeliveryapp.entity.data_classes.Hit
-import com.kmv.mydeliveryapp.entity.data_classes.Recipe
 
 class MenuListAdapter : ListAdapter<Hit, MenuViewHolder>(DiffUtilCallback()){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuViewHolder {

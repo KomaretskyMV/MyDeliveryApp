@@ -15,6 +15,7 @@ class MenuFragment : Fragment() {
 
     private var _binding: FragmentMenuBinding? = null
     private val binding get() = _binding!!
+
     private val menuViewModel: MenuViewModel by viewModels()
     private val menuListAdapter = MenuListAdapter()
 
@@ -29,23 +30,47 @@ class MenuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.viewModel = menuViewModel
+        binding.lifecycleOwner = viewLifecycleOwner
+
         binding.menuRecycler.adapter = menuListAdapter
 
         val position = arguments?.getInt(POSITION_ARG)
 
         when(position) {
             0 -> {
+                menuViewModel.loadDishes("Pizza", menuViewModel._pizza)
                 menuViewModel.pizza.onEach {
                     menuListAdapter.submitList(it)
                 }.launchIn(viewLifecycleOwner.lifecycleScope)
             }
             1 -> {
+                menuViewModel.loadDishes("Salad", menuViewModel._salads)
                 menuViewModel.salads.onEach {
                     menuListAdapter.submitList(it)
                 }.launchIn(viewLifecycleOwner.lifecycleScope)
             }
             2 -> {
+                menuViewModel.loadDishes("Chicken", menuViewModel._chicken)
                 menuViewModel.chicken.onEach {
+                    menuListAdapter.submitList(it)
+                }.launchIn(viewLifecycleOwner.lifecycleScope)
+            }
+            3 -> {
+                menuViewModel.loadDishes("Snack", menuViewModel._snacks)
+                menuViewModel.snacks.onEach {
+                    menuListAdapter.submitList(it)
+                }.launchIn(viewLifecycleOwner.lifecycleScope)
+            }
+            4 -> {
+                menuViewModel.loadDishes("Dessert", menuViewModel._desserts)
+                menuViewModel.desserts.onEach {
+                    menuListAdapter.submitList(it)
+                }.launchIn(viewLifecycleOwner.lifecycleScope)
+            }
+            5 -> {
+                menuViewModel.loadDishes("Drink", menuViewModel._drinks)
+                menuViewModel.drinks.onEach {
                     menuListAdapter.submitList(it)
                 }.launchIn(viewLifecycleOwner.lifecycleScope)
             }
